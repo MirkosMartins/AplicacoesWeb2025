@@ -38,7 +38,7 @@
             </thead>
             <tbody>
                 <?php
-                include 'pagina.php';
+                include 'conectar.php';
 
                 $sql = "SELECT cpf, nome, email, telefone FROM pessoas ORDER BY cpf DESC";
                 $resultado = mysqli_query($conn, $sql);
@@ -51,8 +51,8 @@
                         echo "<td>" . $row['email'] . "</td>";
                         echo "<td>" . $row['telefone'] . "</td>";
                         echo "<td>";
-                        echo "<a href='editar.php?id=" . $row['id'] . "' class='btn-action btn-edit'>Editar</a>";
-                        echo "<a href='excluir.php?id=" . $row['id'] . "' class='btn-action btn-delete' onclick='return confirm(\"Tem certeza que deseja excluir este usuário?\")'>Excluir</a>";
+                        echo "<a href='editar.php?cpf=" . $row['cpf'] . "' class='btn-action btn-edit'>Editar</a>";
+                        echo "<a href='excluir.php?cpf=" . $row['cpf'] . "' class='btn-action btn-delete' onclick='return confirm(\"Tem certeza que deseja excluir este usuário?\")'>Excluir</a>";
                         echo "</td>";
                         echo "</tr>";
                     }
