@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	VALUES ('$cpf','$nome', '$email','$telefone');";
 
     if (mysqli_query($conn, $sql)) {
-        header("Location: formulario.php"); // Redireciona de volta para a página principal
+        header("Location: index.php"); // Redireciona de volta para a página principal
         exit();
     } else {
         echo "Erro ao cadastrar: " . mysqli_error($conn);
