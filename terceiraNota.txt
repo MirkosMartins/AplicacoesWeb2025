@@ -1,0 +1,19 @@
+Implementar (construir) um CRUD em PHP/CSS/mySQL para um "Cadastro de Pets" onde
+
+Nome
+Tipo [cão, gato, papagaio, tartaruga]
+Peso
+Raça
+Idade
+Cor
+
+A avaliação será feita a partir das funcionalidades da aplicação.
+Nota (10,0)
+Create (2,5)
+Read (2,5)
+Update (2,5)
+Delete (2,5)
+
+O código de todo o projeto deve ser zipado em um arquivo com nome CRUD-nomeAluno.zip submetido ao professor
+via email (mirkos@ufn.edu.br) até o dia 16/06/2025 18h25.
+Cada dia de atraso será responsável por -0,5 na nota.
