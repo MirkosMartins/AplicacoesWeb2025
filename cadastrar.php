@@ -1,5 +1,5 @@
 <?php
-include 'pagina.php';
+include 'conectar.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cpf = $_POST['cpf'];
     $nome = $_POST['nome'];
