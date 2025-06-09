@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	WHERE cpf = $cpf;";
 
     if (mysqli_query($conn, $sql)) {
-        header("Location: formulario.php"); // Redireciona de volta para a página principal
+        header("Location: index.php"); // Redireciona de volta para a página principal
         exit();
     } else {
         echo "Erro ao atualizar: " . mysqli_error($conn);
