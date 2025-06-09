@@ -7,7 +7,7 @@
 <p></p>
 <B>Arquivos PHP:</B><br>
 <I>conectar.php</I>: Para gerenciar a conexão com o banco.<br>
-<i>formulario.php</i>: A interface principal com o formulário de adição e listagem de dados.<br>
+<i>index.php</i>: A interface principal com o formulário de adição e listagem de dados.<br>
 <i>cadastrar.php</i>: Para processar a inserção de novos registros.<br>
 <i>editar.php</i>: Para exibir o formulário de edição e processar a atualização.<br>
 <i>excluir.php</i>: Para processar a exclusão de registros.
